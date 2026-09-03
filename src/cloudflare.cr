@@ -4,7 +4,6 @@ require "json"
 require "uri"
 require "uri/params"
 
-require "./cloudflare/version"
 require "./cloudflare/errors"
 require "./cloudflare/response"
 require "./cloudflare/converters"
@@ -30,4 +29,5 @@ require "./cloudflare/tunnel"
 # end
 # ```
 module Cloudflare
+  VERSION = {{ `shards version "#{__DIR__}"`.chomp.stringify }}
 end
