@@ -1,0 +1,14 @@
+# shard.yml
+name: cloudflare
+version: 0.1.0
+
+description: |
+  A Crystal client for the Cloudflare API v4.
+  Currently covers Cloudflare Tunnel (cloudflared / Zero Trust tunnels).
+
+authors:
+  - shpeckman <geelenrobin@proton.me>
+
+crystal: ">= 1.21.0"
+
+license: MIT
